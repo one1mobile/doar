@@ -1,0 +1,3 @@
+C:\Users\shaik\Documents\Mobile\doar\rashum\app\platforms\android\build\intermediates\classes\debug
+C:\Users\shaik\Documents\Mobile\doar\rashum\app\platforms\android\build\intermediates\pre-dexed\debug\classes-35801ba97deca6ac896e45b472ab0a0a0d529ecc.jar
+C:\Users\shaik\Documents\Mobile\doar\rashum\app\platforms\android\build\intermediates\pre-dexed\debug\com.google.zxing.client.android.captureactivity-d6f2da3de75fdb31ed613bcb6a95105a19709e01.jar

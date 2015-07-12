@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\shaik\Documents\Mobile\doar\rashum\app\platforms\android\libs\com.google.zxing.client.android.captureactivity.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="92d1409f739c4ebcfbab79b2a11ec63d1bf668f5">
+        <dex dex="C:\Users\shaik\Documents\Mobile\doar\rashum\app\platforms\android\build\intermediates\pre-dexed\debug\com.google.zxing.client.android.captureactivity-d6f2da3de75fdb31ed613bcb6a95105a19709e01.jar" />
+    </item>
+    <item
+        jar="C:\Users\shaik\Documents\Mobile\doar\rashum\app\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\classes.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="a6104fc60572a7d9f2dbbc592da49d55275a873f">
+        <dex dex="C:\Users\shaik\Documents\Mobile\doar\rashum\app\platforms\android\build\intermediates\pre-dexed\debug\classes-35801ba97deca6ac896e45b472ab0a0a0d529ecc.jar" />
+    </item>
+    <item
+        jar="C:\Users\shaik\Documents\Mobile\doar\rashum\app\platforms\android\build\intermediates\exploded-aar\android\CordovaLib\unspecified\debug\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="a6104fc60572a7d9f2dbbc592da49d55275a873f">
+        <dex dex="C:\Users\shaik\Documents\Mobile\doar\rashum\app\platforms\android\build\intermediates\pre-dexed\debug\classes-35801ba97deca6ac896e45b472ab0a0a0d529ecc.jar" />
+    </item>
+    <item
+        jar="C:\Users\shaik\Documents\Mobile\doar\rashum\app\platforms\android\libs\com.google.zxing.client.android.captureactivity.jar"
+        jumboMode="false"
+        revision="20.0.0"
+        sha1="92d1409f739c4ebcfbab79b2a11ec63d1bf668f5">
+        <dex dex="C:\Users\shaik\Documents\Mobile\doar\rashum\app\platforms\android\build\intermediates\pre-dexed\debug\com.google.zxing.client.android.captureactivity-d6f2da3de75fdb31ed613bcb6a95105a19709e01.jar" />
+    </item>
+
+</items>
