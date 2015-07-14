@@ -1,13 +1,8 @@
 ﻿<!doctype html>
-<!--[if lt IE 7]> <html class="ie6 oldie"> <![endif]-->
-<!--[if IE 7]>    <html class="ie7 oldie"> <![endif]-->
-<!--[if IE 8]>    <html class="ie8 oldie"> <![endif]-->
-<!--[if gt IE 8]><!-->
 <html class="">
-<!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 <title>דואר ישראל</title>
 <link href="css/boilerplate.css" rel="stylesheet" type="text/css">
 <link href="css/style.css" rel="stylesheet" type="text/css">
@@ -15,33 +10,6 @@
 <link rel="stylesheet" type="text/css" href="js/jqueryMobile/jquery.mobile-1.4.5.css" />
 <script type="text/javascript" src="js/jqueryMobile/jquery.mobile-1.4.5.js"></script>
 <script type="application/javascript" src="js/fastclick.js"></script>
-<script>
-jQuery(document).ready(function(){
-jQuery( ".menu" ).click(function() {
-jQuery( ".side_menu" ).slideToggle();
-});
-
-jQuery( ".titleRight" ).click(function() {
-jQuery( ".deliver_zone" ).slideToggle();
-});
-
-jQuery(".footerOpenBtn").click( function() {
-jQuery(".footer").animate({height: 70});
-jQuery( ".footerOpenBtn" ).hide();
-jQuery( ".footerCloseBtn" ).show();
-});
-
-jQuery(".footerCloseBtn").click( function() {
-jQuery(".footer").animate({height: 40});
-jQuery( ".footerCloseBtn" ).hide();
-jQuery( ".footerOpenBtn" ).show();
-});
- 	
-});
-</script>
-<!--[if lt IE 9]>
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-<![endif]-->
 <script src="js/respond.min.js"></script>
 </head>
 <body class="home">
@@ -75,8 +43,8 @@ jQuery( ".footerOpenBtn" ).show();
           <li><a href="#">מיון לפי סדר הליכה</a></li>
           <li><a href="#">דד"ג</a></li>
           <li><a href="#">אי מסירה</a></li>
-          <li><a href="#">מסירה</a></li>
-          <li><a href="#">מסירה מרוכזת</a></li>
+          <li><a href="deliver_report.html">מסירה</a></li>
+          <li><a href="full_deliver_report.html">מסירה מרוכזת</a></li>
           <li><a href="#">דוח מאזן </a></li>
         </ul>
       </div>
@@ -94,10 +62,10 @@ jQuery( ".footerOpenBtn" ).show();
           <li><a href="#">אי מסירה
             <div class="menuBtn"><img src="images/menuBtn03.png" alt="אי מסירה"/></div>
             </a></li>
-          <li><a href="#">מסירה
+          <li><a href="deliver_report.html">מסירה
             <div class="menuBtn"><img src="images/menuBtn04.png" alt="מסירה"/></div>
             </a></li>
-          <li><a href="#">מסירה מרוכזת
+          <li><a href="full_deliver_report.html">מסירה מרוכזת
             <div class="menuBtn"><img src="images/menuBtn05.png" alt="מסירה מרוכזת"/></div>
             </a></li>
           <li><a href="#">דוח מאזן
@@ -117,5 +85,6 @@ jQuery( ".footerOpenBtn" ).show();
 </div>
 <script type="text/javascript" src="cordova.js"></script>
 <script type="text/javascript" src="js/index.js"></script>
+<script type="text/javascript" src="js/general_controls.js"></script>
 </body>
 </html>

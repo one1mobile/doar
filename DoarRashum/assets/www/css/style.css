@@ -26,8 +26,15 @@ img, object, embed, video {
 	and Golden Grid System by Joni Korpi
 	http://goldengridsystem.com/
 */
+* {
+    -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
+}
 
-body{@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);font-family: 'Open Sans Hebrew', sans-serif; background:url(../images/PageBG.jpg) repeat-x 0px 99px;}
+body{@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);font-family: 'Open Sans Hebrew', sans-serif; background:url(../images/PageBG.jpg) repeat-x 0px 99px;
+    -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
+    -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
+    -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
+}
 a{ text-decoration:none;}
 .fluid {
 	clear: both;
