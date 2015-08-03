@@ -30,7 +30,7 @@ img, object, embed, video {
     -webkit-tap-highlight-color: rgba(0,0,0,0); /* make transparent link selection, adjust last value opacity 0 to 1.0 */
 }
 
-body{@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);font-family: 'Open Sans Hebrew', sans-serif; background:url(../images/PageBG.jpg) repeat-x 0px 99px;
+body{@import url(http://fonts.googleapis.com/earlyaccess/opensanshebrew.css);font-family: 'Open Sans Hebrew', sans-serif; font-weight: 300; background:url(../images/PageBG.jpg) repeat-x 0px 99px #eee;
     -webkit-touch-callout: none;                /* prevent callout to copy image, etc when tap to hold */
     -webkit-text-size-adjust: none;             /* prevent webkit from resizing text to fit */
     -webkit-user-select: none;                  /* prevent copy paste, to allow, change 'none' to 'text' */
@@ -69,18 +69,17 @@ a{ text-decoration:none;}
 .menu { float:left; width:30%;margin-top: 5px;}
 .menu img { margin-left:10px;}
 .username{ font-size:24px;text-shadow: 1px 1px 1px rgba(0,0,0,0.48);}
-.HomeMain { text-align:center; 
-}
+.HomeMain { text-align:center;     border-top: 1px solid #fff;}
 .HomeIcon { text-align:center; font-size: 17px;
   padding:20px 0; border-bottom:2px solid #44779a;  width: 80%;
   margin: 0 auto;
 }
 .noBorder{ border:0px;}
 .HomeIcon a {text-shadow: 1px 1px 1px rgba(0,0,0,0.48);  color: #fff; text-decoration:none;}
-.titel { height:33px; margin:1px 0; background-color:#dcdcdc;}
+.titel { height:33px; margin:1px 0; background-color:#333;}
 .titleRight{ float:right; margin:0px 10px 0 0; font-size:22px;}
-.titleRight a{ color:#000;} 
-.mainMenu{ width:200px; margin:40px auto 0;}
+.titleRight a{ color:#fff;} 
+.mainMenu{ width:218px; margin:40px auto 0;}
 .menuBtn{ width:38px; height:38px;  position: absolute;
   right: -21px;
   top: -4px;}
@@ -94,7 +93,7 @@ ul{ margin:0; padding:0;}
 .footerCloseBtn{ width:22px; height:16px; background:url(../images/ButtomBtn.png) no-repeat; float:left; position:absolute; left:10px; display:none;}
 .footerContent{ float:right; text-align:right; font-size:18px; margin:7px 10px 0 0;}
 
-.deliver_zone{ width:200px; background:rgba(0,0,0,0.85); float:right; z-index:999; margin-top:5px;  position: relative;}
+.deliver_zone{ width:200px; background:rgba(0,0,0,0.85); float:right; z-index:999; margin-top:34px;  position: absolute; right:0;}
 .deliver_zone_list li{ float:right; padding:0 20px; background:url(../images/listDot.png) no-repeat right; margin:6px 20px 6px 0; font-size:18px; list-style:none;}
 .deliver_zone_list li.selected{background:url(../images/listDotSelected.png) no-repeat right;} 
 .deliver_zone_list li a{ color:#fff;}
@@ -102,22 +101,39 @@ ul{ margin:0; padding:0;}
 .side_menu{ width:164px; background:rgba(0,0,0,0.85); float:left; z-index:998; margin-top:35px;  position:absolute;}
 .side_menu li{ float:right; padding:0 20px; margin:6px 0px 6px 0; font-size:18px; list-style:none; text-align:right; width:100%;}
 .side_menu li a{ color:#fff;}
-.pageTitle{ color:#fff;text-shadow: 1px 1px 1px rgba(0,0,0,0.48); text-align:center; font-size:26px;  line-height: 31px; background:#999999; height:33px;}
+.pageTitle{ color:#fff;text-shadow: 1px 1px 1px rgba(0,0,0,0.48); text-align:center; font-size:26px;  line-height: 31px; background:#999999; height:33px;border-bottom: 1px solid #777;}
 .barcodeBtn{ margin:11px auto;  width: 100%;}
 .innerContent{ width:96%; margin:0 2% 16px; color:#000; font-size:22px; float:left;}
-select.reason{ color:#fff;font-family: 'Open Sans Hebrew', sans-serif; width:150px; font-size:22px;
--webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; border:1px solid #000; margin-right:20px; text-align:right;  direction: rtl;
-background: url(../images/selectArrow.png) no-repeat left #000;
+select.reason{ color:#000;font-family: 'Open Sans Hebrew', sans-serif; width:182px; font-size:18px; margin-bottom:10px; 
+-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px; border:1px solid #000; text-align:right;  direction: rtl; float:left; padding:7px 5px;
+background: url(../images/selectArrow.png) no-repeat left #fff;
+-webkit-box-shadow: inset -3px 3px 7px -3px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    inset -3px 3px 7px -3px rgba(50, 50, 50, 0.5);
+box-shadow:         inset -3px 3px 7px -3px rgba(50, 50, 50, 0.5);
+    -webkit-appearance: none;
+    background-position-x: 11px;}
+select.reason2{ color:#000;font-family: 'Open Sans Hebrew', sans-serif; width:261px; font-size:22px;
+-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px; border:1px solid #000; text-align:right;  direction: rtl;
+background: url(../images/selectArrow.png) no-repeat left #fff;
+-webkit-box-shadow: inset -3px 3px 7px -3px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    inset -3px 3px 7px -3px rgba(50, 50, 50, 0.5);
+box-shadow:         inset -3px 3px 7px -3px rgba(50, 50, 50, 0.5);
     -webkit-appearance: none;
     background-position-x: 11px;}
 .innerContentRed{ width:100%; padding:0; color:#fff; background:#fc2a2a; font-size:22px; float:left; margin-bottom:14px;}
 .innerContentRed p{ direction:rtl;  margin: 10px;}
-.innerForm input{ background:#fcdada; color:#000;font-family: 'Open Sans Hebrew', sans-serif; width:150px; font-size:22px;
--webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; border:1px solid #000; margin-right:20px; text-align:right;  direction: rtl; float:left; margin-bottom:10px;  padding: 0 5px;}
+.innerForm input{ background:#fff; color:#000;font-family: 'Open Sans Hebrew', sans-serif; width:90%; font-size:18px;
+-webkit-border-radius: 3px;-moz-border-radius: 3px;border-radius: 3px; border:1px solid #000; text-align:right;  direction: rtl; float:left; margin-bottom:10px;  padding:7px 5px;
+-webkit-box-shadow: inset -3px 3px 7px -3px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    inset -3px 3px 7px -3px rgba(50, 50, 50, 0.5);
+box-shadow:         inset -3px 3px 7px -3px rgba(50, 50, 50, 0.5);}
+.shortInput{ width:75.5% !important;}
 .innerForm label{ float:right; margin-bottom:10px;}
+.innerForm label .labelRight{ float:right; margin-bottom:10px; width:120px; text-align: right;}
+
 .fullrow{ width:100%;}
 .submitBtn{ width:100%; text-align:center; float:left;}
-
+.topSpace{ margin-top:50px;}
 /* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
 
 @media only screen and (min-width: 481px) {
@@ -195,3 +211,42 @@ margin-left: 0;
 display: none;
 }
 }
+
+/* 22.7.2015 changes  */
+.sigWrapper{   width: 250px;
+  float: left;
+  overflow: hidden;
+ -webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px; border:1px solid #000; margin-bottom: 15px;}
+.sigCon{ width: 100%; float: right;  position: relative;}
+.clearButton{float: right;
+  position: absolute;
+  top: 93px;
+  right: 0;}
+.clearButton a{ color: #fc2a2a;}
+
+/* 22.7.2015 changes  */
+.barcodeList{ width:180px; margin:0 auto;}
+.barcodeList li{ list-style:none; text-align:right;line-height: 28px;border-bottom:1px solid #ccc; font-size: larger;}
+.barcodeList ul{ margin-bottom:20px;}
+.btn2sides{ width:216px; height:38px; background:url(../images/2btns.png) no-repeat; margin:22px auto; font-size:18px;}
+.withCell{ background-position:bottom;}
+.btnLeft{ float:left; width:108px; margin-top:6px;}
+.btnRight{ float:right; width:108px; margin-top:6px;}
+.btnLeft a{ color:#000;}
+.btnRight a{ color:#fff;}
+.btnLeft.WithCell a{ color:#fff;}
+.btnRight.WithCell a{ color:#000;}
+.innerContent_noCell{ width:96%; margin:20px 2% 50px; color:#000; font-size:22px; float:left;}
+.fullTable{ text-align:right; margin-right:20px; width:90%;}
+.boldText{font-weight: 400;}
+.redText{ color:#d30404;}
+.walkRow{ width:100%; margin:20px 0; padding-bottom:10px; border-bottom:1px solid #939393; overflow:hidden;}
+.walkIcon{ width:21px; float:right; margin-left:10px;}
+.walkText{ width:220px; float:right; text-align:right; direction:rtl;}
+.walkNum{ width:50px; float:left; color:#ff0b0b; font-weight:700;}
+.walkPopup{ width:100%; background:rgba(0,0,0,0.85); float:left; z-index:998; margin-top:0px;  position:absolute;height: 100%;}
+.walkPopup li{ float:right; padding:0 20px; margin:6px 0px 6px 0; font-size:18px; list-style:none; text-align:right; width:100%; color:#fff;}
+.walkClose{ position:relative; float:left; margin:20px 0 0 20px;}
+h2{ color:#fff; font-size:22px; font-weight:300; direction:rtl; margin-right:20px;}
+.CheckPhone{ float:left; margin-right:18px;}
+.formRow{ width:100%; float:left;}

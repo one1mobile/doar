@@ -1,4 +1,4 @@
-var appName = 'דווריים';
+var appName = 'דוורים';
 document.addEventListener("deviceready", init, false);
 function init() {
 	console.log('deviceready');
@@ -7,7 +7,7 @@ function init() {
     console.log('index.js FastClick');
     //handle client side session timeout
     //setSessionTimeout();	
-	//document.addEventListener("backbutton", onBackKeyDown, false);		
+	document.addEventListener("backbutton", onBackKeyDown, false);		
 
 }
 
